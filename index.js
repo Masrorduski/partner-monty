@@ -36,10 +36,10 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/AkYA68Z2gG`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/6Tysbrxtja`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("841792552314994709").send(
-`> <a:E14567BBEE164342AF58DF6872011807:853287588390633502> By: <@${message.author.id}> ✅ 
+  client.channels.get("842058289059725373").send(
+`> By: <@${message.author.id}> ✅ 
 ${message.content}`)
 }
     }
@@ -51,10 +51,10 @@ ${message.content}`)
 client.on('ready', () => {
 console.log(`ON ${client.guilds.size} Servers`);
 console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Rose 💙`) 
+client.user.setGame(`masko`) 
 });
 
 
 
 
-client.login("");// Your Token
+client.login("ODU5MTIzNzc0NzQxMDIwNzEz.YNoHXQ.B2s8rzpHKiATqnaYa_jyzp8iCFI");// Your Token
